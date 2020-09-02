@@ -44,7 +44,7 @@ li{
 li a{
 	display:block;
 	text-decoration: none;
-	padding:10px 14px;
+	padding:12px 22px;
 	margin:0%;
 	font-size:20px;
 	color:#B0E0E6;
@@ -79,7 +79,8 @@ a:hover{
 	background-color:gray;
 	font-size:25px;
 	padding-left:1%;
-	height:100px;
+	margin:1%;
+
 
 }
 .mid{
@@ -105,6 +106,33 @@ a:hover{
 }
 .mid1 img{
 	width:100%;
+}
+ .midd{
+	display:flex;
+	flex-direction:row;
+	width: 98%;
+	padding-right:1%;
+	margin:1%;
+	/*background-color: black;*/
+	flex-wrap: wrap;
+    justify-content:space-around; 
+	/*margin:1%;*/
+	
+	padding-top:1%;
+	
+	
+}
+.midd1{ 
+	width:27%;
+	/*31.3%;*/
+	padding:2%
+	margin:2%;
+	text-align:center; 
+	/*background-color:lightgray;*/
+    	
+}
+.midd1 img{
+    	width:100%;
 }
 .brands{
 	display:flex;
@@ -184,6 +212,14 @@ a:hover{
 .mid1 img{
 	width:100%;
 }
+.midd1{
+	width:38.3%;
+	padding:1%;
+}
+.midd1 img{
+	width:100%;
+	padding:1%;
+}
 .b1{
 	width:25.3%;
 }	
@@ -226,9 +262,10 @@ a:hover{
 	}
 	li a{
 		display:inline-block;
+		/*padding:15px 30px;*/
 		
 		/*padding-left:100%;*/
-		padding-right: 26px;
+		/*padding-right:25px*/
 		font-size:15px;
 	}
 	.nav1{
@@ -256,11 +293,28 @@ a:hover{
 	flex-direction:column;
 	width:98%;
 	margin:1%;
+	padding:1%;
     }
     .mid1{
-    	width:100%;
+    	width:96%;
+    	border:2px solid lightgray;
+    	padding:2%;
+	border-radius:5%;
     }
     .mid1 img{
+    	width:100%;
+    }
+    .midd{
+	display:flex;
+	flex-direction:column;
+	width:96%;
+	margin:1%;
+    }
+    .midd1{
+    	width:98%;
+    	padding:2%;
+    }
+     .midd1 img{
     	width:100%;
     }
     .b1{
@@ -277,7 +331,9 @@ a:hover{
      .about{
      	column-count:1;
      }
-
+     .foot{
+     	font-size:15px;
+     }
 	
 
 }
