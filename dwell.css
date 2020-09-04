@@ -80,10 +80,13 @@ a:hover{
 	font-size:25px;
 	padding-left:1%;
 	margin:1%;
-<<<<<<< HEAD
+	text-align: center;
+}
+.conc{
+	padding-left:1%;
+	margin:1%;
+	font-size:30px;
 
-=======
->>>>>>> 72ba04eacbccd7a25c1caf3afb38adac8e752650
 
 }
 .mid{
@@ -232,10 +235,10 @@ a:hover{
 .form{
 	margin-left:25%;
 }
-.foot{
+/*.foot{
 	height:100px;
 }
-
+*/
 
 }
 
@@ -296,7 +299,7 @@ a:hover{
 	flex-direction:column;
 	width:98%;
 	margin:1%;
-	padding:1%;
+	/*padding:1%;*/
     }
     .mid1{
     	width:96%;
@@ -337,6 +340,8 @@ a:hover{
      .foot{
      	font-size:15px;
      }
-	
+	 .conc{
+	 	font-size:20px;
+	 }
 
 }
