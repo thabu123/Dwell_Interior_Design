@@ -86,8 +86,9 @@ a:hover{
 	padding-left:1%;
 	margin:1%;
 	font-size:30px;
-
-
+	text-align:center;
+	background-color:#B0C4DE;
+	
 }
 .mid{
 	display:flex;
